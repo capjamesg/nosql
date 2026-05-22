@@ -24,6 +24,8 @@ setuptools.setup(
         "lark",
         "btrees",
         "nltk",
+        "numpy",
+        "orjson",
         "sortedcontainers"
     ],
     packages=find_packages(exclude=("tests",)),
